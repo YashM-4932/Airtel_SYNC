@@ -1,0 +1,5 @@
+# Only for scripts/signals.py (the analysis behind reports/signals_report.md). The app does not need these.
+pandas>=2.0
+numpy>=1.24
+scipy>=1.10
+scikit-learn>=1.3

@@ -1,0 +1,6 @@
+# OCR for Smart KYC. Installed separately so a failure here never blocks the app:
+# without these, KYC uses Tesseract if installed, or customers type the details.
+rapidocr>=3.10,<4
+onnxruntime>=1.17
+pytesseract>=0.3.10
+pypdfium2>=4.0
